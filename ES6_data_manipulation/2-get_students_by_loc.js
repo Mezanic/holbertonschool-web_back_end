@@ -1,3 +1,3 @@
-export default function getListStudentIds(arrayObject, location) {
-  return arrayObject.map((value) => value.location === location);
+export default function getListStudentIds(arrayObject, city) {
+  return arrayObject.filter((value) => value.location === city);
 }
