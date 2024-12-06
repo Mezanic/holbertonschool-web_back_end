@@ -1,4 +1,4 @@
-"""Measure the runtime"""
+"""This module define a function for measure the runtime"""
 
 import asyncio
 import time
