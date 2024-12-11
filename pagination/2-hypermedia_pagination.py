@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ezrfzefeza"""
+"""Module for task 2"""
 from typing import Tuple
 import csv
 import math
@@ -22,8 +22,7 @@ class Server:
         self.__dataset = None
 
     def dataset(self) -> List[List]:
-        """Cached dataset
-        """
+        """Cached dataset"""
         if self.__dataset is None:
             with open(self.DATA_FILE) as f:
                 reader = csv.reader(f)
@@ -48,7 +47,7 @@ class Server:
             return []
 
     def get_hyper(self, page: int = 1, page_size: int = 10) -> dict:
-        """Documentation"""
+        """Method for return a paginated view of dataset"""
 
         total_data = len(self.dataset())
         number_of_page = math.ceil(total_data / page_size)

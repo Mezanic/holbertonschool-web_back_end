@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""ezrfzefeza"""
+""" Simple pagination"""
 from typing import Tuple
 import csv
 import math
