@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Module define a function for change topics"""
 
 

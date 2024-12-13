@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Script for list all document in collection"""
 
 
